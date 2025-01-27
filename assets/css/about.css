@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #fbbf24;
+}
+
+/* Personal Info */
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.btn-warning {
+  background-color: #fbbf24;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-warning:hover {
+  background-color: #f39c12;
+}
+
+/* Stats Section */
+.stat-box {
+  padding: 20px;
+  background: #1a1a1a;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.stat-box h3 {
+  font-size: 2.5rem;
+  color: #fbbf24;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Skills */
+.skill-box {
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fbbf24;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin: 0 auto 10px;
+  color: #fbbf24;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.circle[data-percent="25"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="89"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="70"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="66"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="95"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="50"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="65"] {
+  border: 5px solid #fbbf24;
+}
+
+.circle[data-percent="45"] {
+  border: 5px solid #fbbf24;
+}

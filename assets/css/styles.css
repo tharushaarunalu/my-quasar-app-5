@@ -1,0 +1,104 @@
+#vanta-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.intro-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #d1ff;
+}
+
+.intro-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.intro-content .btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #269d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.intro-content .btn:hover {
+  background-color: #1a6c;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4; /* Highlight color */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+  }
+}
+
+.profile-image {
+  width: 800px; /* Adjust size as needed */
+  height: 800px; /* Ensure it maintains a square shape */
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  border: 4px solid #fff; /* Optional border for a polished look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for emphasis */
+}

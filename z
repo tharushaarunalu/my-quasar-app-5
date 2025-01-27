@@ -1,0 +1,13 @@
+vanta-site/
+├── index.html                # Main HTML page with Vanta Birds background
+├── data.php                  # Example PHP backend logic
+├── assets/                   # Folder for static assets like images and styles
+│   ├── css/
+│   │   ├── style.css         # Custom styles for additional pages
+│   ├── js/
+│   │   ├── main.js           # Additional JavaScript for dynamic features
+├── vendor/                   # External libraries
+│   ├── three.min.js          # Three.js for Vanta.js
+│   ├── vanta.birds.min.js    # Vanta Birds effect
+├── .htaccess                 # Optional - for server configurations
+└── README.md                 # Project documentation

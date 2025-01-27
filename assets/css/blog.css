@@ -1,0 +1,66 @@
+body {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #fbbf24;
+}
+
+/* Blog Card */
+.blog-card {
+  background: #1a1a1a;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-content {
+  padding: 15px;
+}
+
+.blog-content h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+/* Pagination */
+.pagination .page-item .page-link {
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  margin: 0 5px;
+}
+
+.pagination .page-item.active .page-link {
+  background: #fbbf24;
+  color: #000;
+}
+
+.pagination .page-item .page-link:hover {
+  background: #fbbf24;
+  color: #000;
+}
